@@ -1,0 +1,27 @@
+# Dataset
+BraTS2020_TrainingData/
+BraTS2020_ValidationData/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Checkpoints — keep best only
+checkpoints/epoch_*.pth
+src/checkpoints/
+checkpoints/logs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
