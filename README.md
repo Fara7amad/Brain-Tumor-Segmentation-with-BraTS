@@ -209,7 +209,7 @@ Click **DEMO (SYNTHETIC)** to run inference on synthetic data with no upload nee
 ### 1 — Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Brain-Tumor-Segmentation-with-BraTS.git
+git clone https://github.com/Fara7amad/Brain-Tumor-Segmentation-with-BraTS.git
 cd Brain-Tumor-Segmentation-with-BraTS
 pip install torch nibabel numpy fastapi uvicorn python-multipart python-dotenv
 ```
