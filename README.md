@@ -1,24 +1,9 @@
 # Brain Tumor Segmentation with BraTS2020
 
-A full-stack 3D U-Net implementation for brain tumor segmentation, built step-by-step as a learning project.
+A full-stack 3D U-Net implementation for brain tumor segmentation.
 
 **Stack:** Python · NumPy · PyTorch · nibabel · FastAPI · React  
 **Dataset:** [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/) — 369 training cases, 125 validation cases
-
----
-
-## Progress
-
-| Stage | Topic | Status |
-|-------|-------|--------|
-| 1 | Data exploration | ✅ Complete |
-| 2 | Z-score normalization | ✅ Complete |
-| 3 | Bounding box crop + resize | ✅ Complete |
-| 4 | PyTorch Dataset class | 🔜 Next |
-| 5 | 3D U-Net architecture | 🔜 Coming |
-| 6 | Training loop | 🔜 Coming |
-| 7 | FastAPI backend | 🔜 Coming |
-| 8 | React frontend | 🔜 Coming |
 
 ---
 
@@ -40,6 +25,8 @@ MICCAI_BraTS2020_TrainingData/
 
 Each volume: shape `(240, 240, 155)`, voxel size `1mm³`, dtype `float64`.
 
+---
+Check out my beginner-friendly explanation for the dataset: [Understanding and Processing the Brain Tumor Segmentation (BraTS2020) Dataset](https://medium.com/@farahabuhamad/understanding-and-processing-the-brain-tumor-segmentation-brats2020-dataset-98b67d303336)
 ---
 
 ## Key Data Facts
@@ -152,15 +139,12 @@ seg[seg == 4] = 3
 ```
 Brain-Tumor-Segmentation-with-BraTS/
 ├── README.md
-├── BraTS2020_Tutorial.ipynb     ← learning notebook (grows each stage)
 ├── src/
-│   ├── preprocessing.py         ← normalize, crop, resize  ✅
-│   ├── dataset.py               ← BraTSDataset             🔜
-│   ├── model.py                 ← 3D U-Net                 🔜
-│   ├── train.py                 ← training loop            🔜
-│   └── inference.py             ← inference + export       🔜
-├── backend/                     ← FastAPI server           🔜
-└── frontend/                    ← React UI                 🔜
+│   ├── dataset.py               ← BraTSDataset             
+│   ├── model.py                 ← 3D U-Net                 
+│   ├── train.py                 ← training loop            
+│   └── inference.py             ← inference + export              
+└── frontend/                    ← React UI                 
 ```
 
 ---
@@ -171,3 +155,17 @@ Brain-Tumor-Segmentation-with-BraTS/
 - [3D U-Net (Çiçek et al., 2016)](https://arxiv.org/abs/1606.06650)
 - [nnU-Net (Isensee et al., 2021)](https://www.nature.com/articles/s41592-020-01008-z)
 - [Dice Loss for medical segmentation](https://arxiv.org/abs/1707.03237)
+---
+
+---
+## Screenshots
+
+<img src= "">
+
+
+
+
+
+
+
+---
