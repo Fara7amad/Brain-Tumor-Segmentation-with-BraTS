@@ -8,9 +8,9 @@
 ![Upload Panel](screenshots/panel.png)
 
 ### Segmentation Results — Three Column Comparison
-![Results](screenshots\BraTs20_Validation_006_Axial.png)
-![Results](screenshots\BraTs20_Validation_006_Sagittal.png)
-![Results](screenshots\BraTs20_Validation_006_Coronal.png)
+![Results](screenshots/BraTs20_Validation_006_Axial.png)
+![Results](screenshots/BraTs20_Validation_006_Sagittal.png)
+![Results](screenshots/BraTs20_Validation_006_Coronal.png)
 
 ---
 
